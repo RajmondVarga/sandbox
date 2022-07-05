@@ -11,29 +11,4 @@ public class MyFirstProgram {
         print( a + b );
         print( a * b );
     }
-
-
-    /**
-     * Driver
-     */
-    public static void main(String[] args) {
-        new MyFirstProgram().run();
-    }
-
-    static void print() {
-        System.out.println();
-    }
-
-    static void print(String string) {
-        System.out.println(string);
-    }
-
-    void print(int i) {
-        System.out.println(i);
-    }
-
-    void print(long i) {
-        System.out.println(i);
-    }
-
 }
