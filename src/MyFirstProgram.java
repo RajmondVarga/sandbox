@@ -28,7 +28,7 @@ public class MyFirstProgram {
     }
 
     static void print() {
-        System.out.println(a);
+        System.out.println();
     }
 
 
