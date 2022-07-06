@@ -2,28 +2,35 @@ package src;
 
 public class MyFirstProgram {
 
-    static void run() {
-        String text1 = "8";
-        String text2 = "hallo";
+    static void robota() {
+        String text1 = "3";
+        String text2 = "4";
         print( text1 + " .. " + text2 );
 
         int a = 3;
         int b = 4;
         print( a + b );
         print( a * b );
+
+        print();
     }
 
     public static void main(String[] args) {
-        run();
+        robota();
     }
 
-    public static void print( int a){
+    static void print( int i ) {
+        System.out.println(i);
+    }
+
+    static void print( String text ) {
+        System.out.println(text);
+    }
+
+    static void print() {
         System.out.println(a);
-    }
-
-    public static void print (String s){
-        System.out.println(s);
     }
 
 
 }
+
